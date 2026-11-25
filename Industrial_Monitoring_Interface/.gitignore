@@ -1,0 +1,10 @@
+build/
+.qtcreator/
+CMakeLists.txt.user*
+CMakeCache.txt
+CMakeFiles/
+*_autogen/
+log_cajas_procesadas.txt
+*.mp4
+.DS_Store
+Thumbs.db
