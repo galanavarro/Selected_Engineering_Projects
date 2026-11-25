@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1256</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2b2b2b</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="ejemplobasico">
+     <attribute name="title">
+      <string>Basica</string>
+     </attribute>
+     <widget class="QLabel" name="l_H4">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>61</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelH4">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>61</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>H4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_S13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>161</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelS14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>411</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>S14</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelhusillo">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>121</y>
+        <width>841</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Husillo grúa</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_H1">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>31</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="piezasalida">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>441</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Pieza</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelactuadorgrua">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>261</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Actuador</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelcintasalida">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>471</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Cinta salida</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_S16">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>121</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_H3">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>61</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelS15">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>101</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>S15</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="piezaentrada">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>441</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Pieza</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_H5">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>271</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_H2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>71</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelH5">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>251</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>H5</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>101</y>
+        <width>121</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid 888888; color: #F0F0F0; border-radius: 4px</string>
+      </property>
+      <property name="title">
+       <string>Pulsadores</string>
+      </property>
+      <widget class="QLabel" name="labelS8">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>150</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>S8</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_S8">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_S7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_S1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelS1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>S1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelS7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>S7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelS2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>40</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>S2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_S2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>60</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="labelS16">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>101</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>S16</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelH1">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>11</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>H1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelH2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>101</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>H2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelcintaentrada">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>471</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Cinta entrada</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="texto">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>531</y>
+        <width>921</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelpalogrua">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>151</y>
+        <width>31</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelS13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>191</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>S13</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_S15">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>121</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_S14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>431</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelH3">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>60</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>H3</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>200</y>
+        <width>631</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_media">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>390</y>
+        <width>81</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;media&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_desviacion">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>390</y>
+        <width>111</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #454545; border: 1px dashed #777777; color: #DCDCDC; </string>
+      </property>
+      <property name="text">
+       <string>desviacion</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="b_ponerpieza">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>330</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Poner Pieza</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="b_quitarpieza">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>400</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Quitar Pieza</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ejemploanimacion">
+     <property name="accessibleName">
+      <string/>
+     </property>
+     <attribute name="title">
+      <string>Animada</string>
+     </attribute>
+     <widget class="QLabel" name="label_husillo">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>90</y>
+        <width>961</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="animacion_H1">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>40</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_eje_grua">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>16</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #5A5A5A; border: 2px solid #888888</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1256</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
