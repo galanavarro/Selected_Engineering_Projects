@@ -1,0 +1,9 @@
+datasets/
+train*/
+*.pth
+*.pt
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
